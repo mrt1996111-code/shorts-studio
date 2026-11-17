@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shorts Studio Uploader</title>
+<meta name="description" content="A private tool that uploads the owner's own original educational Shorts to the owner's own channel through the YouTube Data API.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="./">Shorts Studio Uploader</a>
+  <nav><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="https://github.com/mrt1996111-code/shorts-studio/issues">Contact</a></nav>
+</header>
+<main>
+  <h1>Shorts Studio Uploader</h1>
+  <p class="lead">A private, single-user tool that publishes the owner's own original, self-produced educational Shorts
+  (geography, science and quiz videos) to the owner's own channel.</p>
+
+  <div class="card">
+    <span class="badge">Uses YouTube API Services</span>
+    <p>This tool uses the <b>YouTube Data API v3</b> (<code>videos.insert</code>) to upload videos to the owner's own YouTube channel.
+    By using it you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+    See also the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and this tool's
+    <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>The owner renders original videos on their own computer (3D animation, synthesized sound, text-to-speech narration).</li>
+    <li>The tool signs in once with Google OAuth 2.0, requesting only the <code>youtube.upload</code> scope.</li>
+    <li>It uploads each finished video with its title, description and tags, optionally scheduled with <code>publishAt</code>.</li>
+    <li>It does not read, collect, analyse or store any YouTube data about other users or channels.</li>
+  </ul>
+
+  <h2>Who can use it</h2>
+  <p>Only the owner of this project, for their own channel. It is not offered to the public and has no other users.</p>
+
+  <h2>Source</h2>
+  <p>The complete upload script is published here: <a href="https://github.com/mrt1996111-code/shorts-studio/blob/main/upload_script.py">upload_script.py</a>.</p>
+</main>
+<footer>
+  <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> ·
+  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> · <a href="https://policies.google.com/privacy">Google Privacy Policy</a>
+</footer>
+</body>
+</html>
